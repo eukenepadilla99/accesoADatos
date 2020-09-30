@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">accessToData</string>
-    <string name="tvMain">aceso a datos</string>
-    <string name="tvShowSavedTxt">Saved data:</string>
-    <string name="tvShowSaved">Nothing here</string>
+    <string name="tvMain">acceso a datos</string>
+    <string name="tvShowSavedTxt">Datos guardados:</string>
+    <string name="tvShowSaved">No hay nada aqui</string>
     <string name="etSave"></string>
-    <string name="butSave">SAVE</string>
-    <string name="butRecover">RECOVER</string>
+    <string name="butSave">GUARDAR</string>
+    <string name="butRecover">RECUPERAR</string>
 
     <string name="key">SharedPreferencesKey</string>
-    <string name="defaultKeyTxt">No data saved</string>
+    <string name="defaultKeyTxt">No hay datos guardados</string>
 
 </resources>
