@@ -36,7 +36,6 @@ public class MainActivity extends AppCompatActivity {
         editor =sharedPref.edit();
 
         String value=sharedPref.getString(getString(R.string.key),getString(R.string.defaultKeyTxt));
-
         tvShowSaved.setText(value);
 
         butSave.setOnClickListener(new View.OnClickListener() {
@@ -51,8 +50,7 @@ public class MainActivity extends AppCompatActivity {
         butRecover.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String valor=
-                        sharedPref.getString(getString(R.string.key),getString(R.string.defaultKeyTxt));
+                String valor= sharedPref.getString(getString(R.string.key),getString(R.string.defaultKeyTxt));
                 //editor.commit();
                 tvShowSaved.setText(valor);
             }
