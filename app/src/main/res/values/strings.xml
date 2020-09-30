@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">accessToData</string>
+    <string name="tvMain">accessToData</string>
+    <string name="tvShowSavedTxt">Saved data:</string>
+    <string name="tvShowSaved">Nothing here</string>
+    <string name="etSave"></string>
+    <string name="butSave">SAVE</string>
+    <string name="butRecover">RECOVER</string>
+
+    <string name="key">SharedPreferencesKey</string>
+    <string name="defaultKeyTxt">No data saved</string>
+
+</resources>
